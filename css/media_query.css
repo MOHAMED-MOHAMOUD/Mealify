@@ -1,0 +1,402 @@
+/* media Query*/
+@media only screen and (max-width: 400px)
+{
+.groub {
+  display: flex;
+  align-items: center;
+  gap: 21px;  
+  flex-direction: column;
+}
+.rs-90
+{
+width: 90% !important;
+}
+}
+.groub .Book {
+background: rgb(206, 18, 18);
+padding: 15px 31px;
+border-radius: 44px;
+color: var(--second-color);
+font-size: 14px;
+font-weight: 500;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+.Es-100
+{
+width: 100%;
+}
+.Es-95
+{
+width: 95%;
+}
+.Es-70
+{
+width: 70%;
+}
+.Es-50
+{
+width: 50%;
+}
+.Es-30
+{   
+width: 30%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .sm-100
+    {
+    width: 100%;
+    }
+    .sm-95
+    {
+    width: 95%;
+    }
+    .sm-90
+    {
+    width: 90%;
+    }
+    .sm-85
+    {
+    width: 85%;
+    }
+    .sm-70
+    {
+    width: 70%;
+    }
+    .sm-77
+    {
+    width: 77%;
+    }
+    .sm-50
+    {
+    width:50%;
+    }
+    .sm-45
+    {
+    width:45%;
+    }
+    .sm-60
+    {
+    width:60%;
+    }
+    .sm-30
+    {
+    width: 30%;
+    } 
+    /* nav */
+    .nav .container {
+      display: flex;
+      align-items: center;
+      padding: 17px 5px;
+      flex-wrap: wrap;
+      margin: auto;
+  }
+  /* footer */
+  .sub_groub form input
+  {
+   width: 80%;
+  }
+  .sub_groub form button
+  {
+ width: 20%;
+  }
+  /* footer */
+.logos img {
+  width: 12%;
+ }
+ .sub_groub form{
+display: flex;
+flex-direction: row;
+ } 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+ {
+    .md-100
+    {
+    width: 100%;
+    }
+    .md-95
+    {
+    width: 95%;
+    }
+    .md-90
+    {
+    width: 90%;
+    }
+    .md-70
+    {
+    width: 70%;
+    }
+    .md-85
+    {
+    width: 85%;
+    }
+    .md-50
+    {
+    width: 50%;
+    }
+    .md-44
+    {
+    width: 44%;
+    }
+    .md-30
+    {
+    width: 30%;
+    }
+    /* CHEFS */
+    .card-chefs {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 36px;
+      padding: 29px 0 30px;
+      justify-content: space-between;
+      flex-direction: row;
+      column-gap: 0;
+}
+.card-chefs .card {
+  width: calc(99% / 2 - 10px);
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+/* GALLERY */
+.photo-callery {
+padding-block: 20px;
+display: flex;
+gap: 18px;
+flex-wrap: wrap;
+flex-direction: row;
+ }
+ .photo-one {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3 - 12px);
+ }
+ /* CONTACT */
+ .details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items:normal
+}
+.details .address {
+  width: calc(100% / 2 - 10px);
+}
+/* footer */
+.footer .container
+{
+  display: flex;
+  flex-wrap: wrap;
+    /* column-gap: 120px; */
+    justify-content: space-between;
+}
+.about {
+  width: calc(100% / 2);
+  order: -1;
+ }
+ .contact_details {
+  order: -1;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+ {
+    .lg-100
+    {
+    width: 100%;
+    }
+    .mode-class .dark
+    {
+    margin-left: 95%;
+    }
+    .lg-95
+    {
+    width: 95%;
+    }
+    .lg-90
+    {
+    width: 90%;
+    }
+    .lg-80
+    {
+    width: 80%;
+    }
+    .lg-65
+    {
+    width: 65% !important;
+    }
+    .lg-50
+    {
+    width: 50%;
+    }
+    .lg-45
+    {
+    width: 45%;
+    }
+    .lg-40
+    {
+    width: 40%;
+    }
+    .lg-33
+    {
+    width: 33%;
+    }
+    .lg-30
+    {
+    width: 30%;
+    }
+    /* CHEFS */
+    card-chefs .card {
+      width: calc(99% / 3 - 20px);
+      box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: var(--transition);
+  }
+  /* CONTACT */
+  .groub-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 13px;
+    }
+    div#name {
+      width: 50%;
+  }
+  /* home */
+  .home .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 50px
+}
+.home-text {
+  display: flex;
+  align-items: flex-start;
+}
+.home-text h2 ,
+.home-text p{
+text-align:start;
+}
+/* CHEFS */
+.card-chefs .card {
+  width: calc(100% / 3 - 21px);
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+ }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+ {
+    .ex-100
+    {
+    width: 100%;
+    }
+    .ex-90
+    {
+    width: 90%;
+    }
+    .ex-80
+    {
+    width: 80%;
+    }
+    .ex-70
+    {
+    width: 70%;
+    }
+    .ex-50
+    {
+    width: 50% !important;
+    }
+    .ex-35
+    {
+    width: 35%;
+    }
+    .ex-12
+    {
+    width: 12%;
+    }
+    /* navagtion   */
+    .nav-links
+    {
+      position: static;
+      display: flex;
+      flex-direction: row;
+      height: 0;
+      background-color: transparent;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 31px;
+      padding: 0;
+  }
+    }
+
+    .nav-links a
+    {
+      font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px
+}
+.nav-links a::before
+{
+content: "";
+position: absolute;
+bottom: -19px;
+width: 0%;
+height: 3px;
+background-color: var(--main-color);
+transition: var(--transition);
+}
+.active a::before
+{
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  width: 16%;
+  height: 3px;
+  background-color: var(--main-color);
+  transition: var(--transition);
+}
+.nav-links li:hover a::before
+{
+  width: 18%;
+}
+
+}
+ @media only screen and (min-width: 1200px)
+ {
+  .settings ,
+  .nav-links .fa-solid{
+    display: none;
+    }
+    .footer .container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+     .contact_details 
+     {
+      order: 0;
+     }
+     .footer .container
+     {
+      padding-top: 30px;
+     }
+ }
